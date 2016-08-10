@@ -1,4 +1,4 @@
-import * from PiAnalog
+from PiAnalog import *
 import time
 
 p = PiAnalog()
