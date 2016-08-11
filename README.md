@@ -40,7 +40,7 @@ while True:
 ```
 
 
-The library also includes methods for using Thermisotrs. So if you have a 1k thermistor with a Beta of 3800, you could use the following code to measure the temperature in degrees C.
+The library also includes methods for using Thermistors. So if you have a 1k thermistor with a Beta of 3800, you could use the following code to measure the temperature in degrees C.
 
 ```
 from PiAnalog import *
@@ -78,9 +78,9 @@ The key formula is:
 T = -t / (ln(1-(Vt / Vs))
 
 Where:
-* The time constant T is also (R1 + Rsensor) * C
+* The time constant T is also (R1 + Rsensor) * C1
 * t is the time at which the voltage of C1 reaches Vt
 * Vt is the voltage at which a digital input counts as HIGH on a Raspberry Pi GPIO pin (about 1.35V)
-* Vs is the supply voltage fort the charging pin (always 3.3V)
+* Vs is the supply voltage for the charging pin (always 3.3V)
 
 
