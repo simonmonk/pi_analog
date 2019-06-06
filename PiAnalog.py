@@ -54,7 +54,7 @@ class PiAnalog:
             reading = self.analog_read()
             readings.append(reading)
             readings.sort()
-        t = readings[n / 2]
+        t = readings[int(n / 2)]
         T = -t / math.log(1.0 - (self.Vt / self.Vs))
         RC = T
         r = (RC / self.C) - self.R1
