@@ -7,8 +7,10 @@ Run the following commands to install the library:
 ```
 $ git clone https://github.com/simonmonk/pi_analog.git
 $ cd pi_analog
-$ sudo python setup.py install
+$ sudo python3 setup.py install
 ```
+
+If you want to use the library with python2 change _python3_ in the last coommand above into _python_.
 
 ## Hardware
 
