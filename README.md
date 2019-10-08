@@ -22,7 +22,7 @@ Which you could build on a breadboard using a photoresistor as a sensor like thi
 
 ![Breadboard](https://github.com/simonmonk/pi_analog/blob/master/hardware/breadboard.png?raw=true)
 
-The Monk Makes Electronics Starter Kit for Raspberry Pi (https://monkmakes.com/rpi_esk) includes all the components you need to make the example above and also includes a thermistor for temperature measurement.
+The Monk Makes Electronics Starter Kit for Raspberry Pi (https://www.monkmakes.com/rpesk2) includes all the components you need to make the example above and also includes a thermistor for temperature measurement.
 
 
 
